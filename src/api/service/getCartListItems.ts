@@ -1,6 +1,9 @@
+import { endpoints } from "../endpoints";
+
+
 const getCartListItems = async (id: number) => {
   try {
-    const res = await fetch(`https://fakestoreapi.com/products/${id}`);
+    const res = await fetch(`${endpoints?.productById(id)}`);
     const data = await res.json();
     return data;
   } catch (e) {
