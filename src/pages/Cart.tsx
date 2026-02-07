@@ -1,5 +1,5 @@
-import CartDisplay from '../components/organism/CartDisplay';
-import { useCart } from '../features/cart/hooks/useCart';
+import CartDisplay from '../components/cart/components/CartDisplay';
+import { useCart } from '../components/cart/hooks/useCart';
 
 function Cart() {
   const { loading, productList } = useCart();

@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'react';
-import getCartList from '../service/getCartList';
-import getCartListItems from '../service/getCartListItems';
-import type { CartList, ProductList } from '../types/cartTypes';
+import getCartList from '../../../api/service/getCartList';
+import getCartListItems from '../../../api/service/getCartListItems';
+import type { ProductList } from '../../../types/product';
+import type { CartList } from '../../../types/cart';
 
 type Loading = true | false;
 

@@ -1,7 +1,3 @@
-export interface CartList {
-  productId: number;
-}
-
 export type ProductList = {
   id: number;
   title: string;

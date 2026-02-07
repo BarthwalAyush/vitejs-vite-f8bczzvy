@@ -1,5 +1,5 @@
-import type { ProductList } from '../../features/cart/types/cartTypes';
-import CartItem from '../molecules/CartItem';
+import type { ProductList } from '../../../types/product';
+import CartItem from './CartItem';
 
 type CartDisplay = {
   list: ProductList[];

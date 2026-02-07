@@ -1,4 +1,4 @@
-import type { ProductList } from '../../features/cart/types/cartTypes';
+import type { ProductList } from '../../../types/product';
 
 type CartItem = ProductList;
 
